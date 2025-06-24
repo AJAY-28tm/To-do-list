@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List (Firestore)</title>
+    <!-- Link to Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+    />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>todos</h1>
+    <form id="form">
+      <input
+        type="text"
+        class="input"
+        id="input"
+        placeholder="Add a new task..."
+        autocomplete="off"
+      />
+      <ul class="todos" id="todos"></ul>
+    </form>
+    <small
+      >Left click to toggle completed. <br />
+      Right click to delete todo</small
+    >
+    <div id="userIdDisplay">Authenticating...</div>
+
+    <!-- Link to external JavaScript file -->
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
